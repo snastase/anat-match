@@ -17,6 +17,8 @@ DOWNLOAD_URL = (
         ver=__version__))
 
 INSTALL_REQUIRES = [
+    'pandas',
+    'pybids'
 ]
 
 TESTS_REQUIRE = [
